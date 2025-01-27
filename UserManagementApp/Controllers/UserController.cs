@@ -70,7 +70,7 @@ namespace UserManagementApp.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return View(model); // Return view with validation errors
+                return View(model);
             }
 
             var registerDto = new
